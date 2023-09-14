@@ -1,0 +1,57 @@
+[
+    {
+        "file": "D:\\\\Epic Games\\\\Projects\\\\TutorialCPP\\\\Source\\\\TutorialCPP\\\\TutorialCPP.Build.cs",
+        "command": "\"cl.exe\" @\"D:\\Epic Games\\Projects\\TutorialCPP\\.vscode\\compileCommands_TutorialCPP\\TutorialCPP.182.rsp\"",
+        "directory": "D:\\Epic Games\\UE_4.26\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Epic Games\\\\Projects\\\\TutorialCPP\\\\Source\\\\TutorialCPP\\\\TutorialCPP.cpp",
+        "command": "\"cl.exe\" @\"D:\\Epic Games\\Projects\\TutorialCPP\\.vscode\\compileCommands_TutorialCPP\\TutorialCPP.182.rsp\"",
+        "directory": "D:\\Epic Games\\UE_4.26\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Epic Games\\\\Projects\\\\TutorialCPP\\\\Source\\\\TutorialCPP\\\\TutorialCPP.h",
+        "command": "\"cl.exe\" @\"D:\\Epic Games\\Projects\\TutorialCPP\\.vscode\\compileCommands_TutorialCPP\\TutorialCPP.182.rsp\"",
+        "directory": "D:\\Epic Games\\UE_4.26\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Epic Games\\\\Projects\\\\TutorialCPP\\\\Source\\\\TutorialCPP\\\\TutorialCPPCharacter.cpp",
+        "command": "\"cl.exe\" @\"D:\\Epic Games\\Projects\\TutorialCPP\\.vscode\\compileCommands_TutorialCPP\\TutorialCPP.182.rsp\"",
+        "directory": "D:\\Epic Games\\UE_4.26\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Epic Games\\\\Projects\\\\TutorialCPP\\\\Source\\\\TutorialCPP\\\\TutorialCPPCharacter.h",
+        "command": "\"cl.exe\" @\"D:\\Epic Games\\Projects\\TutorialCPP\\.vscode\\compileCommands_TutorialCPP\\TutorialCPP.182.rsp\"",
+        "directory": "D:\\Epic Games\\UE_4.26\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Epic Games\\\\Projects\\\\TutorialCPP\\\\Source\\\\TutorialCPP\\\\TutorialCPPGameMode.cpp",
+        "command": "\"cl.exe\" @\"D:\\Epic Games\\Projects\\TutorialCPP\\.vscode\\compileCommands_TutorialCPP\\TutorialCPP.182.rsp\"",
+        "directory": "D:\\Epic Games\\UE_4.26\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Epic Games\\\\Projects\\\\TutorialCPP\\\\Source\\\\TutorialCPP\\\\TutorialCPPGameMode.h",
+        "command": "\"cl.exe\" @\"D:\\Epic Games\\Projects\\TutorialCPP\\.vscode\\compileCommands_TutorialCPP\\TutorialCPP.182.rsp\"",
+        "directory": "D:\\Epic Games\\UE_4.26\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Epic Games\\\\Projects\\\\TutorialCPP\\\\Source\\\\TutorialCPP\\\\TutorialGameMode.cpp",
+        "command": "\"cl.exe\" @\"D:\\Epic Games\\Projects\\TutorialCPP\\.vscode\\compileCommands_TutorialCPP\\TutorialCPP.182.rsp\"",
+        "directory": "D:\\Epic Games\\UE_4.26\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Epic Games\\\\Projects\\\\TutorialCPP\\\\Source\\\\TutorialCPP\\\\TutorialGameMode.h",
+        "command": "\"cl.exe\" @\"D:\\Epic Games\\Projects\\TutorialCPP\\.vscode\\compileCommands_TutorialCPP\\TutorialCPP.182.rsp\"",
+        "directory": "D:\\Epic Games\\UE_4.26\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Epic Games\\\\Projects\\\\TutorialCPP\\\\Source\\\\TutorialCPP\\\\TutorialMan.cpp",
+        "command": "\"cl.exe\" @\"D:\\Epic Games\\Projects\\TutorialCPP\\.vscode\\compileCommands_TutorialCPP\\TutorialCPP.182.rsp\"",
+        "directory": "D:\\Epic Games\\UE_4.26\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Epic Games\\\\Projects\\\\TutorialCPP\\\\Source\\\\TutorialCPP\\\\TutorialMan.h",
+        "command": "\"cl.exe\" @\"D:\\Epic Games\\Projects\\TutorialCPP\\.vscode\\compileCommands_TutorialCPP\\TutorialCPP.182.rsp\"",
+        "directory": "D:\\Epic Games\\UE_4.26\\Engine\\Source"
+    }
+]

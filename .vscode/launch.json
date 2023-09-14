@@ -1,0 +1,123 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "TutorialCPP (Debug)",
+            "request": "launch",
+            "preLaunchTask": "TutorialCPP Win64 Debug Build",
+            "program": "D:\\Epic Games\\Projects\\TutorialCPP\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+            "args": [],
+            "cwd": "D:\\Epic Games\\UE_4.26",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "D:\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "externalTerminal"
+        },
+        {
+            "name": "TutorialCPP (DebugGame)",
+            "request": "launch",
+            "preLaunchTask": "TutorialCPP Win64 DebugGame Build",
+            "program": "D:\\Epic Games\\Projects\\TutorialCPP\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+            "args": [],
+            "cwd": "D:\\Epic Games\\UE_4.26",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "D:\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "externalTerminal"
+        },
+        {
+            "name": "TutorialCPP (Development)",
+            "request": "launch",
+            "preLaunchTask": "TutorialCPP Win64 Development Build",
+            "program": "D:\\Epic Games\\Projects\\TutorialCPP\\Binaries\\Win64\\UE4.exe",
+            "args": [],
+            "cwd": "D:\\Epic Games\\UE_4.26",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "D:\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "externalTerminal"
+        },
+        {
+            "name": "TutorialCPP (Shipping)",
+            "request": "launch",
+            "preLaunchTask": "TutorialCPP Win64 Shipping Build",
+            "program": "D:\\Epic Games\\Projects\\TutorialCPP\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+            "args": [],
+            "cwd": "D:\\Epic Games\\UE_4.26",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "D:\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "externalTerminal"
+        },
+        {
+            "name": "TutorialCPP (Test)",
+            "request": "launch",
+            "preLaunchTask": "TutorialCPP Win64 Test Build",
+            "program": "D:\\Epic Games\\Projects\\TutorialCPP\\Binaries\\Win64\\UE4-Win64-Test.exe",
+            "args": [],
+            "cwd": "D:\\Epic Games\\UE_4.26",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "D:\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "externalTerminal"
+        },
+        {
+            "name": "TutorialCPPEditor (Debug)",
+            "request": "launch",
+            "preLaunchTask": "TutorialCPPEditor Win64 Debug Build",
+            "program": "D:\\Epic Games\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+            "args": [
+                "D:\\Epic Games\\Projects\\TutorialCPP\\TutorialCPP.uproject"
+            ],
+            "cwd": "D:\\Epic Games\\UE_4.26",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "D:\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "externalTerminal"
+        },
+        {
+            "name": "TutorialCPPEditor (DebugGame)",
+            "request": "launch",
+            "preLaunchTask": "TutorialCPPEditor Win64 DebugGame Build",
+            "program": "D:\\Epic Games\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+            "args": [
+                "D:\\Epic Games\\Projects\\TutorialCPP\\TutorialCPP.uproject"
+            ],
+            "cwd": "D:\\Epic Games\\UE_4.26",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "D:\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "externalTerminal"
+        },
+        {
+            "name": "TutorialCPPEditor (Development)",
+            "request": "launch",
+            "preLaunchTask": "TutorialCPPEditor Win64 Development Build",
+            "program": "D:\\Epic Games\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+            "args": [
+                "D:\\Epic Games\\Projects\\TutorialCPP\\TutorialCPP.uproject"
+            ],
+            "cwd": "D:\\Epic Games\\UE_4.26",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "D:\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "externalTerminal"
+        },
+        {
+            "name": "Generate Project Files",
+            "type": "clr",
+            "request": "launch",
+            "program": "D:\\Epic Games\\UE_4.26\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+            "console": "externalTerminal",
+            "args": [
+                "-projectfiles",
+                "-vscode",
+                "-project=D:\\Epic Games\\Projects\\TutorialCPP\\TutorialCPP.uproject",
+                "-game",
+                "-engine"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+            "cwd": "D:\\Epic Games\\UE_4.26"
+        }
+    ]
+}
