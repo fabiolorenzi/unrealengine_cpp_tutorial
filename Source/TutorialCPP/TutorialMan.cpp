@@ -31,12 +31,19 @@ ATutorialMan::ATutorialMan()
 	FollowCamera->bUsePawnControlRotation = false;
 
 	bDead = false;
+	Power = 100.0f;
 }
 
 void ATutorialMan::OnBeginOverlap(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
 	if (OtherActor->ActorHasTag("Recharge")) {
-		UE_LOG(LogTemp, Warning, TEXT("Collided with"));
+		Power += 10.0f;
+
+		if (Power > 100.0f) {
+			Power = 100.0f;
+		}
+
+		OtherActor->Destroy();
 	}
 }
 
