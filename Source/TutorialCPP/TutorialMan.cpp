@@ -54,6 +54,10 @@ void ATutorialMan::BeginPlay()
 
 	GetCapsuleComponent()->OnComponentBeginOverlap.AddDynamic(this, &ATutorialMan::OnBeginOverlap);
 	
+	if (PlayerPowerWidgetClass != nullptr) {
+		PlayerPowerWidget = CreateWidget(GetWorld(), PlayerPowerWidgetClass);
+		PlayerPowerWidget->AddToViewport();
+	}
 }
 
 // Called every frame
