@@ -33,10 +33,19 @@ ATutorialMan::ATutorialMan()
 	bDead = false;
 }
 
+void ATutorialMan::OnBeginOverlap(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+{
+	if (OtherActor->ActorHasTag("Recharge")) {
+		UE_LOG(LogTemp, Warning, TEXT("Collided with"));
+	}
+}
+
 // Called when the game starts or when spawned
 void ATutorialMan::BeginPlay()
 {
 	Super::BeginPlay();
+
+	GetCapsuleComponent()->OnComponentBeginOverlap.AddDynamic(this, &ATutorialMan::OnBeginOverlap);
 	
 }
 
