@@ -2,6 +2,9 @@
 
 
 #include "TutorialMan.h"
+#include "Components/SkeletalMeshComponent.h"
+#include "GameFramework/Actor.h"
+#include "Kismet/GameplayStatics.h"
 
 // Sets default values
 ATutorialMan::ATutorialMan()
@@ -60,11 +63,27 @@ void ATutorialMan::BeginPlay()
 	}
 }
 
+void ATutorialMan::RestartGame()
+{
+	UGameplayStatics::OpenLevel(this, FName(*GetWorld()->GetName()), false);
+}
+
 // Called every frame
 void ATutorialMan::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	Power -= DeltaTime * PowerThreshold;
+
+	if (Power <= 0) {
+		if (!bDead) {
+			bDead = true;
+			GetMesh()->SetSimulatePhysics(true);
+
+			FTimerHandle UnusedHandle;
+			GetWorldTimerManager().SetTimer(UnusedHandle, this, &ATutorialMan::RestartGame, 3.0f, false);
+		}
+	}
 }
 
 // Called to bind functionality to input
